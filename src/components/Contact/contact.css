@@ -1,0 +1,114 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.clientDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+.clientImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.clientImg{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+
+#clients {
+    padding: 2rem;
+    
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+
+}
+.contactForm{
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    
+}
+
+/* Email section container */
+.emailSection {
+  background-color: #333; 
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the space between the email and the icon */
+}
+
+.emailLink {
+  text-decoration: none;
+  color: #6EACDA; /* Optional: style the email link as needed */
+}
+
+.copyIcon {
+  cursor: pointer;
+}
+
+.copyConfirmation {
+  color: whitesmoke;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+

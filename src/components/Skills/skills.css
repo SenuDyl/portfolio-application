@@ -1,0 +1,119 @@
+#skills {
+    overflow:hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.skillCategory {
+  margin-bottom: 2rem;
+}
+
+.skillCategory h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #6EACDA; /* matches your yellow accent */
+}
+
+.skillGrid {
+  display: flex;
+  flex-wrap: wrap;   /* allows wrapping if screen is small */
+  gap: 1.5rem;
+}
+
+
+.skillTile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+
+  padding: 1rem 0.5rem;
+  border-radius: 1rem;
+
+  background: #1e1e1e;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.skillTile:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.skillTile span {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #ddd;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2.8rem;
+}
+
+/* Brand colors */
+.react { color: #61dafb; }
+.js { color: #f7df1e; }
+.ts { color: #3178c6; }
+.java { color: #f89820; }
+.python { color: #3776ab; }
+.c { color: #555555; }
+.cpp { color: #00599c; }
+.node { color: #68a063; }
+.spring { color: #6db33f; }
+.pytorch { color: #ee4c2c; }
+
+.mysql { color: #00758f; }
+.sqlite { color: #003b57; }
+.postgres { color: #336791; }
+.mongodb { color: #47a248; }
+
+.git { color: #f05032; }
+.linux { color: #fcc624; }
+.docker { color: #2496ed; }
+
+.fullstack { color: #ff6f61; }       
+.microservices { color: #f4b400; }  
+.ml { color: #ee4c2c; }             
+.iam { color: #4caf50; }            
+
+
+
+@media screen and (max-width: 720p){
+    .skillBarText>p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480p){
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    .skillBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillBarText>h2{
+        font-size: 5vw;
+
+    }
+}

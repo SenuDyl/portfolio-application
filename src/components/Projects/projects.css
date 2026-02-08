@@ -1,0 +1,123 @@
+#projects {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+  
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  border: whitesmoke 1px solid;
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  padding: 0 20px;
+}
+
+.project-details {
+  padding: 15px;
+  color: white;
+  text-align: left;
+}
+
+.project-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.project-subtitle {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.project-description {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.tech-stack {
+  margin-top: 10px;
+}
+
+.tech-stack ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tech-stack li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #6EACDA;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #444;
+  transform: translateY(-3px);
+}
+
+.project-link i {
+  margin-right: 8px;  /* Space between the icon and text */
+  font-size: 1.2rem;  /* Slightly bigger icon */
+}
+
+
+.project-link.live {
+  color: #28a745;
+}
