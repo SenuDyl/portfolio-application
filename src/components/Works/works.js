@@ -34,7 +34,10 @@ const Works = () => {
             <h3>Software Engineer Intern</h3>
             <span>WSO2 • 2024 - 2025</span>
             <p>
-              Designed and implemented an end-to-end workflow support system in WSO2 Identity Server
+              Designed and implemented an end-to-end workflow support system in WSO2 Identity Server.
+            </p>
+            <p>
+              Built an open-source Ballerina connector for HubSpot Marketing Subscriptions.
             </p>
           </div>
         </div>
@@ -46,13 +49,11 @@ const Works = () => {
             <h3>Teaching Assistant</h3>
             <span>University of Moratuwa • 2025</span>
             <p>
-              Assisted in teaching and mentoring students in Advanced Software Engineering courses.
+              Assisted and mentored student group projects for Advanced Software Engineering Module.
             </p>
           </div>
         </div>
-
-        {/* Add more items here */}
-      </div>
+     </div>
     </section>
 
   )
